@@ -1,0 +1,52 @@
+.app_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.app_wrapper{
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 50%;
+    height: 60vh;
+    gap: 1rem;
+}
+.app_wrapper h1{
+    margin-bottom: 1rem;
+    color: blue;
+    font-size: 2rem;
+}
+input{
+    padding: 0.5rem;
+    border: 1px solid #667eea;
+    outline: none;
+    border-radius: 5px;
+    width: 50%;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+button{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #667eea;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.app_wrapper h2{
+    margin-top: 1rem;
+    color: Black;
+    font-size: 1.5rem;
+}
+.app_wrapper p{
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: Black;
+    align-items: center;
+}
