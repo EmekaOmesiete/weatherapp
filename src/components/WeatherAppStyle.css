@@ -50,3 +50,124 @@ button{
     color: Black;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .app_wrapper {
+        width: 70%;
+        height: auto;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .app_wrapper h1 {
+        font-size: 2rem;
+    }
+
+    input {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .app_wrapper h2 {
+        font-size: 1.5rem;
+    }
+
+    .app_wrapper p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .app_wrapper {
+        width: 80%;
+        padding: 1.5rem;
+        gap: 0.8rem;
+    }
+
+    .app_wrapper h1 {
+        font-size: 1.8rem;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    button {
+        width: 70%;
+    }
+
+    .app_wrapper h2 {
+        font-size: 1.4rem;
+    }
+
+    .app_wrapper p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .app_wrapper {
+        width: 80%;
+        height: auto;
+        padding: 1.5rem;
+        gap: 0.8rem;
+    }
+
+    .app_wrapper h1 {
+        font-size: 1.8rem;
+    }
+
+    input {
+        width: 70%;
+        font-size: 0.95rem;
+    }
+
+    button {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .app_wrapper h2 {
+        font-size: 1.3rem;
+    }
+
+    .app_wrapper p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .app_wrapper {
+        width: 90%;
+        padding: 1rem;
+        gap: 0.6rem;
+    }
+
+    .app_wrapper h1 {
+        font-size: 1.6rem;
+    }
+
+    input {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    button {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 0.5rem 0;
+    }
+
+    .app_wrapper h2 {
+        font-size: 1.2rem;
+    }
+
+    .app_wrapper p {
+        font-size: 0.95rem;
+    }
+}
