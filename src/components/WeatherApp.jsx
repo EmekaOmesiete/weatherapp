@@ -33,7 +33,7 @@ const WeatherApp = () => {
         loading: false,
       }));
 
-      toast.success("Weather data fetched successfully!");
+      // toast.success("Weather data fetched successfully!");
     } catch (error) {
       console.error(error);
       setWeather((prev) => ({ ...prev, loading: false }));
